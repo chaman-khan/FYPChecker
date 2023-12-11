@@ -147,5 +147,10 @@ const styles = StyleSheet.create({
     marginBottom: 50,
     borderRadius: '30 30 0 0',
   },
+  homeText: {
+    fontSize: 24,
+    fontFamily: 'Arial Rounded MT Bold',
+    color: 'white',
+  },
 });
 export default ListOfClasses;

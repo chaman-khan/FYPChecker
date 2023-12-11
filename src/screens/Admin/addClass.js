@@ -46,6 +46,11 @@ const styles = StyleSheet.create({
     borderRadius: '30 30 0 0'
 
   },
+  homeText: {
+    fontSize: 24,
+    fontFamily: 'Arial Rounded MT Bold',
+    color: 'white',
+  },
   input: {
     width: '90%',
     height: 60,

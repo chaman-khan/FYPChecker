@@ -5,14 +5,7 @@ const UpdateClass = () => {
   return (
     <View>
       <View style={styles.topBar}>
-        <Text style={styles.homeText}>ADD CLASS</Text>
-      </View>
-      <View style={styles.view}>
-        <Text style={styles.txt}>Select Session</Text>
-        <View style={styles.input}>
-          <Image source={require('../../Images/Calendar.png')} />
-          <TextInput placeholder="" style={{fontSize: 16}} />
-        </View>
+        <Text style={styles.homeText}>UPDATE CLASS</Text>
       </View>
       <View style={styles.view}>
         <Text style={styles.txt}>Class Name</Text>
@@ -28,8 +21,15 @@ const UpdateClass = () => {
           <TextInput placeholder="" style={{fontSize: 16}} />
         </View>
       </View>
-      <View style={{width: '40%', alignSelf: 'center', alignItems: 'center', justifyContent: 'center', marginTop: 100}}>
-        <Text style={{color: 'white', fontSize: 20}}>ADD CLASS</Text>
+      <View
+        style={{
+          width: '40%',
+          alignSelf: 'center',
+          alignItems: 'center',
+          justifyContent: 'center',
+          marginTop: 100,
+        }}>
+        <Text style={{color: 'white', fontSize: 20}}>UPDATE CLASS</Text>
       </View>
     </View>
   );
@@ -43,8 +43,12 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     backgroundColor: theme.colors.primary,
     marginBottom: 50,
-    borderRadius: '30 30 0 0'
-
+    borderRadius: '30 30 0 0',
+  },
+  homeText: {
+    fontSize: 24,
+    fontFamily: 'Arial Rounded MT Bold',
+    color: 'white',
   },
   input: {
     width: '90%',

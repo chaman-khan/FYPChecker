@@ -8,11 +8,13 @@
 import React from 'react';
 import Home from './src/screens/Admin/home';
 
-const App = () => {
-  return(
+function App(): JSX.Element {
+
+  return (
     <Home />
-  )
+  );
 }
+
 
 
 export default App;
