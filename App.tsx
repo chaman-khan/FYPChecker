@@ -6,12 +6,12 @@
  */
 
 import React from 'react';
-import Home from './src/screens/Admin/home';
+import MainNav from './src/navigation/mainNav';
 
 function App(): JSX.Element {
 
   return (
-    <Home />
+    <MainNav />
   );
 }
 
