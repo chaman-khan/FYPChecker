@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
     homeText: {
         fontSize: 24,
         fontFamily: 'Arial Rounded MT Bold',
-        color: 'white',
+        color: 'black',
       },
 })
 export default About
